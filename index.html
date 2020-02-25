@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -16,103 +14,106 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="demo.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
 
     <title>Delhi State Student Convention</title>
   </head>
-
-  <body class="bg-light" data-spy="scroll" data-target="#main-nav">
-  <nav class="navbar navbar-expand-md navbar-light fixed-top py-0" id="main-nav1">
-    <div class="container">
-      <a href="#home" class="navbar-brand">
-        <img src="img/logo.jpg" width="50" height="50" alt="logo" />
-        <h5 class="d-inline align-middle" style="color: #14144f;">Maharaja Surajmal Institute</h5>
-      </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item ">
-            <a href="#home" class="nav-link" style="color: #14144f;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#events" class="nav-link" style="color: #14144f;">Events</a>
-          </li>
-          <li class="nav-item">
-            <a href="#committee" class="nav-link" style="color: #14144f;">Committee</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link" style="color: #14144f;">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link" style="color: #14144f;">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <section id="video-back">
-    <div class="jumbotron text-center p-0 mt-5" style=" background: transparent;">
-      <video class="video-intro" poster="img/Screenshot.png" playsinline autoplay muted loop id="myvideo">
-        <source src="img/myvideo.mp4" type="video/mp4">
-      </video>
-      <div class="container text-white mt-5 p-5 center" id="home" style="margin-top: 8rem; padding-top: 8rem; ">
-        <p class="lead p-auto">
-          <h2 class="display-5" style="font-weight: 400;margin-top: 8rem;">Computer Society of India<br>And<br>Student Branch, Maharaja Surajmal Institute</h2>
-        </p>
-        <hr style=" width:70%; ">
-        <p class="lead ">
-          <h1 class="display-5">DELHI STATE STUDENT CONVENTION 2020</h1>
-          <h4 class="display-5">19-20 March 2020</h4>
-        </p>
-        <hr style=" width:70%; ">
-        <a class="btn btn-outline-light btn-lg text-center" href="https://forms.gle/MdT5cW4Js8PdQady7" role="button" style="border-radius: 30rem;">Register</a>
-      </div>
-      <br/>
-      <br/>
-      <section id="events">
-        <div class="container text-white" >
+  <body data-spy="scroll" data-target="#main-nav">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top py-0 " id="main-nav">
+        <div class="container">
+          <a href="#home" class="navbar-brand">
+            <img src="img/favicon.jpg" width="50" height="50" alt="logo" />
+            <h5 class="d-inline align-middle" style="color: #14144f;">Maharaja Surajmal Institute</h5>
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item ">
+                <a href="#home" class="nav-link" style="color: #14144f;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#events" class="nav-link" style="color: #14144f;">Events</a>
+              </li>
+              <li class="nav-item">
+                <a href="#committee" class="nav-link" style="color: #14144f;">Committee</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link" style="color: #14144f;">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link" style="color: #14144f;">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    </header>
+    <div class="jumbotron jumbotron-expand-md text-center p-0 mt-5" style=" background: transparent;">
+      <section id="home">
+          <video autoplay loop muted poster="img/Screenshot.png" class="video_container">
+            <source src="img/background.mp4" type="video/mp4" style="z-index:0">
+          </video>
+          <div class="container text-white mt-5 p-5 center" id="home" style="z-index:1;margin-top: 8rem; padding-top: 8rem; ">
+            <p class="lead p-auto">
+              <h2 class="display-5" style="font-weight: 400;margin-top: 8rem;">Computer Society of India<br>And<br>Student Branch, Maharaja Surajmal Institute</h2>
+            </p>
+            <hr style=" width:70%; ">
+            <p class="lead ">
+              <h1 class="display-5">DELHI STATE STUDENT CONVENTION 2020</h1>
+              <h4 class="display-5">19-20 March 2020</h4>
+            </p>
+            <hr style=" width:70%; ">
+            <a class="btn btn-outline-light btn-lg text-center" href="https://forms.gle/MdT5cW4Js8PdQady7" role="button" style="border-radius: 30rem;">Register</a>
+          </div>	
+        </div>
+      </section>
+      <section id="events" >
+        <div class="container-fluid text-white" >
           <p class="lead">
-            <h4 class="display-5 text-center pt-5" style="font-weight: 100; margin-top: 150px; ">Events to keep you hooked</h4>
+            <h4 class="display-5 text-center pt-5" style="padding-top:3rem;font-weight: 400; ">Events to keep you hooked</h4>
           <hr style=" width:40%; ">
+          <br><br>
           <div class="d-flex justify-content-around row text-center text-white">
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="thumbnail">
-                <div class="p-4 item mr-auto">
+                <div class="p-2 item mr-auto">
                   <a class="btn" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium." data-original-title="" title="">
-                    <img src="img/project.jpg" style="width: 100%;" alt="project-img">
-                    <h4 class="display-5">Project Presntation Contest </h4>
+                    <img class="img-fluid" src="img/project.jpg" alt="project-img"> 
+                    <h4 class="display-5" style="color:#00CED1">Project Presntation Contest </h4>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="thumbnail">
-                <div class="p-4 item mr-auto">
+                <div class="p-2 item mr-auto">
                   <a class="btn" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium." data-original-title="" title="">
-                    <img src="img/quiz.jpg" style="width: 100%;" alt="quiz-img">
-                    <h4 class="display-5">IT Quiz </h4>
+                    <img class="img-fluid" src="img/quiz.jpg" alt="quiz-img">
+                    <h4 class="display-5" style="color:#00CED1">IT Quiz </h4>
+                  </a>
+                </div>
+              </div>
+            </div><br>
+            <div class="col-md-6">
+              <div class="thumbnail">
+                <div class="p-2 item mr-auto">
+                  <a class="btn" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium." data-original-title="" title="">
+                    <img class="img-fluid" src="img/programming.PNG" alt="programming-img">
+                    <h4 class="display-5" style="color:#00CED1">Coding Competition</h4>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="thumbnail">
-                <div class="p-4 item mr-auto">
+                <div class="p-2 item mr-auto">
                   <a class="btn" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium." data-original-title="" title="">
-                    <img src="img/programming.PNG" style="width: 100%;" alt="programming-img">
-                    <h4 class="display-5">Coding Competition</h4>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <div class="p-4 item mr-auto">
-                  <a class="btn" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium." data-original-title="" title="">
-                    <img src="img/web_designing.jpg" style="width: 100%;" alt="web-img">
-                    <h4 class="display-5">Web Designing Contest </h4>
+                    <img class="img-fluid" src="img/web_designing.jpg" alt="web-img">
+                    <h4 class="display-5" style="color:#00CED1">Web Designing Contest </h4>
                   </a>
                 </div>
               </div>
@@ -120,105 +121,176 @@
           </div>
         </div>
       </section>
-      <br/>
-      <br/>
+
       <section id="committee">
-        <div class="container text-center text-white">
-          <h4 class="display-5 text-center" style="font-weight: 100;">Our Hardworking Committee</h4>
-          <hr style=" width:40%; ">
-          <div class="row">
-            <div class="col-lg-4">
-              <h3 style="color: #14144f;">Patrons</h3>
-              <p style="text-align:center;">
+        <div class="container text-white ">
+          <div class="lead text-center">
+            <br><br><br><br>
+            <h4 class="display-5 text-center" style="font-weight: 400; padding-top: 3rem;">Our Hardworking Committee</h4>
+            <hr style=" width:40%; ">
+            <br><br>
+            <h3 class="display-5 d-block" style=" font-weight: 400;color:#00CED1">Patrons </h3>
+            
+            <div class="row justify-content-around">
+              <div class="col-4">
                 <br>
-                <strong>Sh. Kaptan Singh </strong><br><br>
-                <strong>Sh. Ajit Singh Chaudhary</strong><br><br>
-                <strong>h. Raj Pal Solanki</strong><br><br>
-              </p>
-
-              <h3 style="color: #14144f;">Advisory Committee</h3><br>
-              <p style="text-align:center;">
-                <strong>Prof A K Nayak</strong><br>President, CSI<br><br>
-                <strong>Prof R K Vyas</strong><br>Vice President, CSI<br><br>
-                <strong>Dr Santosh Kumar Yadav</strong><br>Hon Secretary, CSI<br><br>
-                <strong>Dr Durgesh Kumar Mishra</strong><br>Hon Treasurer, CSI<br><br>
-                <strong>Dr. Vinay Kumar</strong><br>Chairman- Delhi Chapter<br><br>
-                <strong>Imran Ghani</strong><br>State State Coordinator-Delhi Chapter<br><br>
-                <strong>Arvind Sharma</strong><br>Regional Vice President (Region-1)<br><br>
-              </p>
-              <h3 style="color: #14144f;">Organizing Committee</h3>
-              <p style="text-align:center;"><strong>Prof. (Dr.) Rachita Rana</strong><br>Organizing Chairman<br><br>
-                <strong>Prof. Dr. J. P. Singh </strong><br>Organizing Chairman <br><br>
-              </p>
-            </div>
-
-            <div class="col-lg-4">
-              <p style="text-align:center;">
+                <h5>Sh. Kaptan Singh</h5>
                 <br>
-                <strong>Mr Surajpal Chauhan</strong><br>Event Chairman<br><br>
-                <strong>Dr. Amit Choudhary</strong><br>Event Chairman<br><br>
-                <strong>Ms. Rhythm Choudhary</strong><br>Programme Chairman<br><br>
-                <strong>Mr. Manoj Kumar</strong><br>Programme Chairman<br><br>
-
-                <h3 style="color: #14144f;">Core Team Members</h3>
-                <strong>Ankit Jee</strong><br>President<br><br>
-                <strong>Jatin Dahiya</strong><br>Vice President<br><br>
-                <strong>Abhishek Verma</strong><br>Secretory<br><br>
-                <strong>Lakshmi Maurya</strong><br>Website and Technical Leader<br><br>
-                <strong>Himanshu Gulia</strong><br>Website and Technical Leader<br><br>
-                <strong>Jatin Bagga</strong><br>Promotion Leader<br><br>
-                <strong>Debaangshu Sen</strong><br>Designing Leader<br><br>
-                <strong>Aditiya Negi</strong><br>Finance Leader<br><br>
-                <strong>Ansh Bhatia</strong><br>Public Relation Leader<br><br>
+              </div>
+              <div class="col-4">
+                <br>
+                <h5>Sh. Ajit Singh Chaudhary</h5>
+                <br>
+              </div>
+              <div class="col-4">
+                <br>
+                <h5>Sh. Raj Pal Solanki</h5>
+                <br>
+              </div>
             </div>
-
-            <div class="col-lg-4">
-              <h3 style="color: #14144f;">Event Heads</h3>
-              <h4 style="color: #14144f;">Coding Competition</h4>
-              <p style="text-align:center;">
-                <strong>Dhruv Rawat</strong><br>  II year, BCA<br><br>
-                <strong>Jainender Baswal</strong><br>  II year, BCA<br><br>
-                <strong>Ishaan Grover</strong><br>  II year, BCA<br><br>
-              </p>
-              <h4 style="color: #14144f">Web Designing</h4>
-              <p style="text-align:center;">
-                <strong>Drishti Gupta</strong><br>  II year, BCA<br><br>
-                <strong>Ishaan Verma</strong><br>  II year, BCA<br><br>
-                <strong>Dhruv</strong><br>  II year, BCA<br><br>
-              </p>
-              <h4 style="color: #14144f">Project Presentation</h4>
-              <p style="text-align:center;">
-                <strong>Jatin Mahale</strong><br>  II year, BCA<br><br>
-                <strong>Himanshu Mahanta</strong><br>  II year, BCA<br><br>
-                <strong>Avneet Singh Kalra</strong><br>  II year, BCA<br><br>
-              </p>
-              <h4 style="color: #14144f"> IT Quiz</h4>
-              <p style="text-align:center;">
-                <strong>Kartik Aklawat</strong><br>  II year, BCA<br><br>
-                <strong>Archit Kumar Singh</strong><br>  II year, BCA<br><br>
-                <strong>Dhruv Sahani</strong><br>  II year, BCA<br><br>
-              </p>
+          </div>
+          <br>
+          <div class="container text-white ">  
+            <div class="lead text-center">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <h3 class="display-5 d-block" style=" font-weight: 400; color:#00CED1">Advisory Committee </h3>
+                  <br>
+                  <h5>Prof. A. K. Nayak</h5>
+                  <small>President CSI</small>
+                  <br>
+                  <h5>Prof. R. K. Vyas</h5>
+                  <small>Vice President-CSI</small><br>
+                  <h5>Dr. Santosh Kumar</h5>
+                  <small>Hon Secretory</small><br>
+                  <h5>Dr. Durgesh Mishra</h5>
+                  <small>Hon Treasor</small><br>
+                  <h5>Dr. Vinay Kumar</h5>
+                  <small>Chairman- Delhi Chapter</small><br>
+                  <h5>Imran Ghani</h5>
+                  <small>State State Coordinator-Delhi Chapter</small>
+                  <br>
+                  <h5>Arvind Sharma</h5>
+                  <small>Regional Vice President (Region-1)</small>
+                </div>
+                <div class="col-6">
+                  <h3 class="display-5 d-block" style="font-weight: 400;color:#00CED1">Organizing Committee</h3>
+                <br>
+                <h5>Prof. (Dr.) Rachita Rana</h5>
+                <small>Organizing Chairman</small>
+                <br>
+    
+                <h5>Prof. Dr. J. P. Singh</h5>
+                <small>Organizing Chairman</small>
+                <br>
+    
+                <h5>Ms. Rhythm Choudhary</h5>
+                <small>Programme Chairman</small>
+                <br>
+    
+                <h5>Mr. Manoj Kumar</h5>
+                <small>Programme Chairman</small>
+                <br>
+                <h5>Mr Surajpal Chauhan</h5>
+                <small>Event Chairman</small>
+                <br>
+                <h5>Dr. Amit Choudhary</h5>
+                <small>Event Chairman</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="container text-white ">  
+            <div class="lead text-center">
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <h3 class="display-5 d-block" style="font-weight: 400;color:#00CED1">Core Team Members</h3>
+                  <br>
+                  <h5>Ankit Jee</h5>
+                  <small>President</small>
+                  <br>
+                  <h5>Jatin Dahiya</h5>
+                  <small>Vice President</small>
+                  <br>
+                  <h5>Abhishek Verma</h5>
+                  <small>Secretory</small>
+                  <br>
+                  <h5>Lakshmi Maurya</h5>
+                  <small>Website and Technical Leader</small>
+                  <br>
+                  <h5>Himanshu Gulia</h5>
+                  <small>Website and Technical Leader</small>
+                  <br>
+                  <h5>Jatin Bagga</h5>
+                  <small>Promotion Leader</small>
+                  <br>
+                  <h5>Debaangshu Sen</h5>
+                  <small>Designing Leader</small>
+                  <br>
+                  <h5>Aditiya Negi</h5>
+                  <small>Finance Leader</small>
+                  <br>
+                  <h5>Ansh Bhatia</h5>
+                  <small>Public Relation Leader</small>
+                </div>
+                <div class="col-6">
+                  <h3 class="display-5 d-block" style="font-weight: 400;color:#00CED1">Event Heads</h3>
+                  <br>
+                  <h5>Project Presentation Contest</h5>
+      
+                  <small>Jatin Mahale</small><br>
+                  <small>Himanshu Mahanta</small><br>
+                  <small>Avneet Singh Kalra</small>
+                  <br>
+                  <h5>Coding Competition</h5>
+      
+                  <small>Dhruv Rawat</small><br>
+                  <small>Jainender Baswal</small><br>
+                  <small>Ishaan Grover</small><br>
+                  
+                  <h5>IT Quiz</h5>
+      
+                  <small>Kartik Aklawat</small><br>
+                  <small>Archit Kumar Singh</small><br>
+                  <small>Dhruv Sahani</small><br>
+                  
+                  <h5>Web Designing Contest</h5>
+      
+                  <small>Drishti Gupta</small><br>
+                  <small>Ishaan Verma</small><br>
+                  <small>Dhruv</small>
+                  <br>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <section id="about">
+        <div class="container text-white">
+            <h3 class="display-5 text-center" style="font-weight: 400;">About Us</h3>
+            <hr style=" width:30%; ">
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quaerat commodi eaque provident, perspiciatis sequi vero alias mollitia minima quibusdam debitis minus distinctio beatae nam consectetur dicta corporis vel laboriosam.
+            </p>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, autem rem tempora asperiores consequuntur dignissimos quos? Omnis, asperiores quod? Ab atque quos, deleniti eligendi cumque itaque iure molestiae perspiciatis dolorum!</p>
+            <br>  
+          </div>
       </section>
     </div>
-  </section>
-    <footer class="mt-3 ">
-        <div class="jumbotron jumbotron-fluid justify-content-center bg-dark text-center text-white" id="bottom" >
-          <p class="lead" id="about">
-            <h3 class="display-5 text-center" style="font-weight: 100;">About Us</h3>
-            <p class="lead" style="font-weight: 100;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Minus sequi nam quisquam quidem. Voluptates magnam rerum</p>
-            <h3 class="display-5 text-center" style="font-weight: 100;" id="contact">Contact Us</h3>
+      <footer >
+        <div class="jumbotron jumbotron-fluid bg-dark text-white text-center" id="contact">
+          <h3 class="display-5 " style="font-weight: 400;">Contact Us</h3>
+          <hr style=" width:20%; ">
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adi</p>
+          <br>
           <div class="copyright text-white">
-            © Copyright <strong>CSI-LC</strong>. All Rights Reserved
-          </div>
-          <div class="credits text-white">
-            Designed by:  <a href="https://www.linkedin.com/in/lakshmi-maurya-900bb4179/" style="color: #fff;"> Lakshmi Maurya (+91 9717720739)</a>
-          </div>
+            © Copyright <strong>CSI</strong>. All Rights Reserved
+            </div>
         </div>
-    </footer>
-    
+      </footer>
+        
     
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
